@@ -1,23 +1,7 @@
 @font-face {
   font-family: "Oswald";
-  src: url("../fonts/Oswald-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Oswald";
   src: url("../fonts/Oswald-Bold.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url("../fonts/Oswald-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
@@ -32,16 +16,73 @@
 
 @font-face {
   font-family: "Oswald";
-  src: url("../fonts/Oswald-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Oswald";
   src: url("../fonts/Oswald-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(8, 92, 92);
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  color: rgb(108, 14, 196);
+}
+
+p {
+  color: rgb(242, 9, 9);
+  font-weight: 600;
+}
+
+strong {
+  color: rgb(200, 3, 239);
+}
+
+.center {
+  text-align: center;
+  line-height: 16px;
+}
+
+.list-two {
+  background-color: rgb(172, 110, 34);
+  border: 5px solid rgb(15, 15, 243);
+  padding: 10px;
+  margin: 20px;
+}
+
+ul {
+  font-size: 15px;
+  font-weight: 600;
+  color: aquamarine;
+}
+
+ul ul {
+  color: rgb(201, 233, 20);
+  font-weight: 100;
+}
+
+.list-two.center {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.list-two.center ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+div#block {
+  background-image: url(../image/sea-g4fc4066fd_640.jpg);
+  background-size: cover;
 }
